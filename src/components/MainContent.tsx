@@ -18,7 +18,7 @@ const MainContent: React.FC = () => {
       }}
     >
       {recipies.map((r) => (
-        <MealCard id={r} />
+        <MealCard key={r} id={r} />
       ))}
       ;
     </Container>

@@ -13,7 +13,7 @@ interface MealCardProps {
 const MealCard: React.FC<MealCardProps> = (props: MealCardProps) => {
   const { id } = props;
   return (
-    <Card sx={{ maxWidth: 300, mr: 2, mt: 2 }}>
+    <Card  sx={{ maxWidth: 300, mr: 2, mt: 2 }}>
       <CardMedia
         component="img"
         alt="paella"
