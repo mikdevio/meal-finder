@@ -1,6 +1,10 @@
 import React from "react";
 
-const RecipeModal: React.FC = () => {
+interface RecipeModalProps {
+  // Define any props you need for the RecipeModal component
+}
+
+const RecipeModal: React.FC<RecipeModalProps> = () => {
   return <div>RecipeModal</div>;
 };
 
